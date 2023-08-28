@@ -26,6 +26,7 @@
         {{ $sass := resources.Get "sass/main.scss" }}
         {{ $style := $sass | resources.ToCSS (dict "targetPath" "css/main.css" ) }}
         <link rel="stylesheet" type="text/css" media="screen" href="{{ $style.Permalink }}">
+        <link rel="stylesheet" href={{ "css/carousel.css" | relURL }}>
 
     </head>
 
@@ -43,7 +44,7 @@
 
         <script src={{ "js/jquery-3.6.0.js" | relURL }}></script>
         <script src={{ "js/main.js" | relURL }}></script>
-
+        <script type="text/javascript" src={{ "js/carousel.js" | relURL }}></script>
     </body>
 
 </html>

@@ -27,4 +27,6 @@ Sunday marked our first true off-piste adventure as we set off towards Cedar Pea
 
 The summit of Cedar Peak proved to be a captivating playground of tunnels and exciting scrambles, giving us ample entertainment. Following a satisfying lunch, we decided to forgo climbing Chisel Peak and instead traversed across the slopes of Groot Krakadouw, aiming to find Ezan’s “easy” descent route. Although we couldn’t locate it, we stumbled upon a remarkable little slot canyon and marveled at the many impressive Cedar trees. Upon reaching the stream flowing off of Groot Krakadouw, the only sensible members of our group, Charles and myself, indulged in a very refreshing dip in its pools. A short while later, we were at camp and a very rewarding long weekend in the mountains drew to a close.
 
+{{< carousel src="carousel_northern_cederberg" items="1" height="400" unit="px" duration="7000" >}}
+
 {{< openstreetmap mapName="northern-cederberg_954159" scale=14 >}}

@@ -1,60 +1,20 @@
-
-<div class="carousel">
-
-    {{ $src := .Get "src" }}
-    {{ $data := index .Page.Site.Data $src }}
-
-    <div class="carousel-toggle">
-        <img src="{{$data.cover}}">
-        <div class="carousel-clicker-container">
-            <a class="carousel-clicker">Click to display</a>
-        </div>
-    </div>
-
-
-
-    <div class="carousel-target">  
-
-        <div class="carousel-btn-top">
-            <a class="btn-fullscreen-exit"><i class="bi bi-fullscreen-exit"></i></a>
-            <a class="btn-fullscreen"><i class="bi bi-fullscreen"></i></a>
-            <a class="btn-carousel-exit"><i class="bi bi-x-lg"></i></a>
-        </div>
-
-
-        <div class="carousel-stage">
-            {{ range $id, $value := $data.item }}
-            <div class="carousel-item {{ if eq $id 0 }} active {{ else }} inactive {{ end }}">
-                
-                <div class="carousel-img-container">
-                    <img src="{{.url}}" alt="{{.title}}">
-                </div>
-
-                <div class="carousel-txt-container">
-                    <div class="carousel-item-info">
-                        <div class="title-container">
-                            <span class="title">{{.title}}</span>
-                            <span>{{.id}} / {{$data.total}}</span>
-                        </div>
-                        <p>{{.description}}</p>
-                        <p><span>{{.memo}}</span></p>
-                    </div>
-                </div>
-    
-             </div>
-            {{end}}
-        </div>
-
-
-        <div class="carousel-btn-bottom">
-            <a class="btn-info"><i class="bi bi-info-lg"></i></a>
-            <a class="btn-left"><i class="bi bi-chevron-left"></i></a>
-            <a class="btn-right"><i class="bi bi-chevron-right"></i></a>
-        </div>
-
-        
-    </div>
-
+{{ .Scratch.Set "height" (.Get "height") }}
+{{ .Scratch.Set "unit" (.Get "unit") }}
+{{ .Scratch.Set "ordinal" .Ordinal }}
+{{ .Scratch.Set "items" (.Get "items") }}
+{{ $src := .Get "src" }}
+{{ $data := index .Site.Data $src }}
+<div id="carousel{{ .Ordinal }}" class="carousel" duration="{{ .Get `duration` }}">
+    <ul>
+      {{ range $index, $slide := $data.images }}
+        <li id="c{{ $.Scratch.Get "ordinal" }}_slide{{ add $index 1}}" style="min-width: calc(100%/{{ $.Scratch.Get "items" }}); padding-bottom: {{ $.Scratch.Get "height" }}{{ $.Scratch.Get "unit" }};"><img src="{{$data.baseURL}}/{{ $slide.image }}" alt="" /><div><div>{{ $slide.content_html }}</div></div></li>
+      {{ end }}
+    </ul>
+    <ol>
+      {{ range $index, $page := $data.images }}
+        <li><a href="#c{{ $.Scratch.Get "ordinal" }}_slide{{ add $index 1 }}"></a></li>
+      {{ end }}
+    </ol>
+    <div class="prev">&lsaquo;</div>
+    <div class="next">&rsaquo;</div>
 </div>
-
-
