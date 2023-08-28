@@ -1,4 +1,4 @@
-baseURL = 'http://jordaan.me/'
+baseURL = 'https://pieter.jordaan.me/'
 languageCode = 'en-za'
 title = "Pieter's Musings"
 theme = 'hugo-theme-walden'
