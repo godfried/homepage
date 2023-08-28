@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MCSA on Pieter&#39;s Musings</title>
+    <link>http://jordaan.me/tags/mcsa/</link>
+    <description>Recent content in MCSA on Pieter&#39;s Musings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-ZA</language>
+    <managingEditor>pieter@jordaan.me (Pieter Jordaan)</managingEditor>
+    <webMaster>pieter@jordaan.me (Pieter Jordaan)</webMaster>
+    <lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://jordaan.me/tags/mcsa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kroonlandpiek</title>
+      <link>http://jordaan.me/blog/kroonlandpiek/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      <author>pieter@jordaan.me (Pieter Jordaan)</author>
+      <guid>http://jordaan.me/blog/kroonlandpiek/</guid>
+      <description>&lt;p&gt;On a rare sunny winter&amp;rsquo;s day, 8 club members ventured into the hidden Elandskloof valley behind Villiersdorp.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Northern Cederberg Exploration</title>
+      <link>http://jordaan.me/blog/northern-cederberg/</link>
+      <pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate>
+      <author>pieter@jordaan.me (Pieter Jordaan)</author>
+      <guid>http://jordaan.me/blog/northern-cederberg/</guid>
+      <description>&lt;p&gt;Eight adventurous souls embarked on a weekend hike in the Northern Cederberg, setting off early on a rainy Thursday the 27th April.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hex Exploration</title>
+      <link>http://jordaan.me/blog/hex-exploration/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <author>pieter@jordaan.me (Pieter Jordaan)</author>
+      <guid>http://jordaan.me/blog/hex-exploration/</guid>
+      <description>&lt;p&gt;A party of five headed into the less frequented area of the Hex lying just to the east of Milner Peak.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rabiesberg &amp; Naudésberg</title>
+      <link>http://jordaan.me/blog/rabiesberg-naudesberg.en-copy/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <author>pieter@jordaan.me (Pieter Jordaan)</author>
+      <guid>http://jordaan.me/blog/rabiesberg-naudesberg.en-copy/</guid>
+      <description>&lt;p&gt;Tucked away in the north-western end of the Langeberg is a cluster of remote, high mountains known as the Kwadousberge. These include Keeromsberg (2071m) and the striking Saw Edge Peak (1723m). This weekend we would only tackle the ‘babies’ of the range, Rabiesberg (1663m) and Naudésberg (1644m).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Victoria Peak</title>
+      <link>http://jordaan.me/blog/victoria-peak.en-copy-2/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <author>pieter@jordaan.me (Pieter Jordaan)</author>
+      <guid>http://jordaan.me/blog/victoria-peak.en-copy-2/</guid>
+      <description>&lt;p&gt;Twenty-three sleepy souls met at the Jonkershoek Reserve Gate at 07h15, eager for a long and rewarding day in the mountains.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

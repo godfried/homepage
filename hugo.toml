@@ -1,0 +1,81 @@
+baseURL = 'http://jordaan.me/'
+languageCode = 'en-za'
+title = "Pieter's Musings"
+theme = 'hugo-theme-walden'
+
+paginate = 12
+
+defaultContentLanguage = "en"
+
+[language]
+    [languages.en]
+        title = "Pieter's Musings"
+        languageName = "English"
+        languageCode = "en-ZA"
+        weight = 1
+
+        [languages.en.author]
+            name = "Pieter Jordaan"
+            avatar = "images/default/avatar.jpg"
+            description = "Hi, I am Pieter Jordaan, a Kariega native living in Cape Town. I enjoy running, hiking, kloofing and climbing when I'm not busy with software of some sort."
+            email = "pieter@jordaan.me"
+
+[languages.en.menus]
+    [[languages.en.menus.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 10
+    [[languages.en.menus.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/blog/"
+        weight = 20
+
+[params]
+    headline = "/images/default/headline.jpg"
+    thumbnail = "/images/default/thumbnail.jpg"
+    
+[markup]
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+        [markup.goldmark.extensions]
+            definitionList = true
+            footnote = true
+            linkify = true
+            strikethrough = true
+            table = true
+            taskList = true
+            typographer = true
+        [markup.goldmark.parser]
+            attribute = true
+            autoHeadingID = true
+            autoHeadingIDType = "github"
+        [markup.goldmark.renderer]
+            hardWraps = false
+            unsafe = true
+            xHTML = false
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = true
+        hl_Lines = ""
+        lineNoStart = 1
+        lineNos = true
+        lineNumbersInTable = false
+        noClasses = true
+        style = "monokai"
+        tabWidth = 4
+    [markup.tableOfContents]
+        endLevel = 3
+        ordered = false
+        startLevel = 2
+
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.101.0"
+
+
+
+
