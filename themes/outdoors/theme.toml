@@ -1,0 +1,5 @@
+name = "outdoors"
+license = "MIT"
+
+tags = ["Blog","Personal","Responsive","Gallery","Light"]
+features = ["responsive", "thumbnail","headline"]

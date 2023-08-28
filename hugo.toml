@@ -1,7 +1,7 @@
 baseURL = 'https://pieter.jordaan.me/'
 languageCode = 'en-za'
 title = "Pieter's Musings"
-theme = 'hugo-theme-walden'
+theme = ['outdoors', 'osm']
 
 paginate = 12
 
