@@ -4,7 +4,8 @@
 {{ .Scratch.Set "items" (.Get "items") }}
 {{ $src := .Get "src" }}
 {{ $data := index .Site.Data $src }}
-<div id="carousel{{ .Ordinal }}" class="carousel" duration="{{ .Get `duration` }}">
+<div id="carousel-holder" class="carousel-holder">
+  <div id="carousel{{ .Ordinal }}" class="carousel" duration="{{ .Get `duration` }}">
     <ul>
       {{ range $index, $slide := $data.images }}
         <li id="c{{ $.Scratch.Get "ordinal" }}_slide{{ add $index 1}}" style="min-width: calc(100%/{{ $.Scratch.Get "items" }}); padding-bottom: {{ $.Scratch.Get "height" }}{{ $.Scratch.Get "unit" }};"><img src="{{$data.baseURL}}/{{ $slide.image }}" alt="" /><div><div>{{ $slide.content_html }}</div></div></li>
@@ -17,4 +18,5 @@
     </ol>
     <div class="prev">&lsaquo;</div>
     <div class="next">&rsaquo;</div>
+  </div>
 </div>

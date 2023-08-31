@@ -31,6 +31,16 @@ defaultContentLanguage = "en"
         name = "Blog"
         url = "/blog/"
         weight = 20
+    [[languages.en.menus.main]]
+        identifier = "new-zealand-2023"
+        name = "New Zealand 2023"
+        url = "/blog/new-zealand-2023/"
+        weight = 20
+    [[languages.en.menus.main]]
+        identifier = "scotland-2021"
+        name = "Scotland 2021"
+        url = "/blog/scotland-2021/"
+        weight = 20
 
 [params]
     headline = "/images/default/headline.jpg"
