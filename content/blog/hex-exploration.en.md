@@ -6,14 +6,14 @@ author: "Pieter Jordaan"
 categories: "hiking"
 tags: ["Hexrivierberge","hiking", "MCSA"]
 thumbnail: ""
-headline: 
+headline:
     enabled: true
     background: ""
 ---
 
 A party of five headed into the less frequented area of the Hex lying just to the east of Milner Peak.
 
-<!--more--> 
+<!--more-->
 
 We hiked in from Eselfontein, following a good trail for 4km up the mountain (albeit with a brief bushwack to get into the swing of things). Then it was off piste as we chose a more or less direct line to our chosen campsite. This was located some 300m below Moraine Corner, next to a nice stream with a few dipping pools.
 

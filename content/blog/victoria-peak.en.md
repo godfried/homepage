@@ -6,14 +6,14 @@ author: "Pieter Jordaan"
 categories: "hiking"
 tags: ["Jonkershoekberge","hiking", "MCSA"]
 thumbnail: ""
-headline: 
+headline:
     enabled: true
     background: ""
 ---
 
 Twenty-three sleepy souls met at the Jonkershoek Reserve Gate at 07h15, eager for a long and rewarding day in the mountains.
 
-<!--more--> 
+<!--more-->
 
 After a few minutes milling about, and several calls for Wild Cards, a permit was organized and the indemnity form completed. From here it was a bumpy 20 minutes to Witbrug, with some of the less rugged vehicles just about scraping into the parking area.
 

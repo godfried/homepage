@@ -1,6 +1,6 @@
 baseURL = 'https://pieter.jordaan.me/'
 languageCode = 'en-za'
-title = "Pieter's Musings"
+title = "Pieter Jordaan"
 theme = ['outdoors', 'osm']
 
 paginate = 12
@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
 
 [language]
     [languages.en]
-        title = "Pieter's Musings"
+        title = "Pieter Jordaan"
         languageName = "English"
         languageCode = "en-ZA"
         weight = 1

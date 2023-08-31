@@ -1,0 +1,20 @@
+baseURL: https://filedn.eu/lTv8UMwGxyiRlqRsJEldwrb/Beinn%20Dearg
+images:
+    - image: bein-dearg1.jpg
+      content_html: "1"
+    - image: bein-dearg2.jpg
+      content_html: "2"
+    - image: bein-dearg3.jpg
+      content_html: "3"
+    - image: bein-dearg4.jpg
+      content_html: "4"
+    - image: bein-dearg5.jpg
+      content_html: "5"
+    - image: bein-dearg6.jpg
+      content_html: "6"
+    - image: bein-dearg7.jpg
+      content_html: "7"
+    - image: bein-dearg8.jpg
+      content_html: "8"
+    - image: bein-dearg9.jpg
+      content_html: "9"

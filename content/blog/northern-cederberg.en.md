@@ -6,14 +6,14 @@ author: "Pieter Jordaan"
 categories: "hiking"
 tags: ["Cederberge","hiking","MCSA"]
 thumbnail: ""
-headline: 
+headline:
     enabled: true
     background: ""
 ---
 
 Eight adventurous souls embarked on a weekend hike in the Northern Cederberg, setting off early on a rainy Thursday the 27th April.
 
-<!--more--> 
+<!--more-->
 
 Despite encountering a minor setback when one vehicle broke down outside Clanwilliam, our spirits remained high. With a tow from Charles and a mechanic’s reassurance, we resumed our journey, only to face another breakdown on the first gravel pass. Determined to continue, we organized a tow back to Clanwilliam and had the other vehicle shuttle us to our starting point at Heuningvlei. After a day filled with unexpected twists, we finally arrived at Heuningvlei hut in a light drizzle at 5pm. Our enthusiasm to explore the wilderness remained unshaken, and we eagerly planned the adventures ahead that evening.
 

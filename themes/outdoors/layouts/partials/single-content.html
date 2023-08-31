@@ -1,7 +1,6 @@
 
     <div class="content">
 
-        <!-- 正文 -->
         <article>
             <div class="content-header">
                 <h1 class="title">{{ .Title }}</h1>
@@ -22,7 +21,6 @@
 
 
 
-        <!-- 标签 -->
         {{ with .Params.tags }}
         <div class="content-tag">
             {{ range . }}
@@ -33,7 +31,6 @@
 
 
 
-        <!-- Navigator -->
         <div class="content-nav">
             <div>
                 {{ with .PrevInSection }}
