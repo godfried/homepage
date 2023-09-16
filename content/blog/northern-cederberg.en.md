@@ -4,7 +4,7 @@ date: 2023-07-02
 draft: false
 author: "Pieter Jordaan"
 categories: "hiking"
-tags: ["Cederberge","hiking","MCSA"]
+tags: ["Cederberg","hiking","MCSA"]
 thumbnail: ""
 headline:
     enabled: true
